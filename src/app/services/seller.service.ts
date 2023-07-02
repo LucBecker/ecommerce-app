@@ -2,11 +2,14 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { signUp } from '../data-type';
 import { Route, Router } from '@angular/router';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SellerService {
+
+  isSellerLoggedIn = new BehaviorSubject<boolean>(false);
 
   constructor(
     private http:HttpClient,
