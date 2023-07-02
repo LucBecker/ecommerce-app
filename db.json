@@ -11,6 +11,46 @@
       "email": "davi@gmail.com",
       "password": "321",
       "id": 2
+    },
+    {
+      "name": "Paulo",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "Renata",
+      "password": "abc",
+      "id": 4
+    },
+    {
+      "name": "Marcos",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "Eduardo Silva",
+      "password": "abc",
+      "id": 6
+    },
+    {
+      "name": "Renato de araujo ",
+      "password": "senha123",
+      "id": 7
+    },
+    {
+      "name": "Fabio",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "name": "Milena",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "Ricardo",
+      "password": "123",
+      "id": 10
     }
   ]
 }
