@@ -11,6 +11,21 @@
       "email": "davi@gmail.com",
       "password": "321",
       "id": 2
+    },
+    {
+      "name": "Paulo",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "Renata",
+      "password": "abc",
+      "id": 4
+    },
+    {
+      "name": "Marcos",
+      "password": "123",
+      "id": 5
     }
   ]
 }
