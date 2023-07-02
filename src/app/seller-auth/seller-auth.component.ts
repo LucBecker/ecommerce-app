@@ -10,9 +10,9 @@ export class SellerAuthComponent implements OnInit {
   constructor(){}
 
   ngOnInit(): void {
-      signUp(data:Object):void{
+    signUp(data:Object):void{
         console.warn(data);
-      }
+    }
   }
 
 }
