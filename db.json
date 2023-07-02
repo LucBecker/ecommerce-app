@@ -68,6 +68,12 @@
       "password": "12345",
       "email": "jose@gmail.com",
       "id": 13
+    },
+    {
+      "name": "Mario Sosua",
+      "password": "123",
+      "email": "sdfa21@gmail.com",
+      "id": 14
     }
   ]
 }

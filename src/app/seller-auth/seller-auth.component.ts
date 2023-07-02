@@ -10,6 +10,8 @@ import { signUp } from '../data-type';
 })
 export class SellerAuthComponent implements OnInit {
 
+  showLogin=true
+
   constructor(
     private seller: SellerService){}
 
@@ -20,5 +22,17 @@ export class SellerAuthComponent implements OnInit {
   signUp(data: signUp):void{
     console.warn(data);
     this.seller.userSignUp(data)
+  }
+
+  login(data: signUp): void {
+    console.warn(data);
+  }
+
+  openLogin(){
+    this.showLogin=true;
+  }
+
+  openSignUp(){
+    this.showLogin=false;
   }
 }
