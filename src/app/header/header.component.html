@@ -5,7 +5,7 @@
         <button>Search</button>
     </div>
     <div [ngSwitch]="menuType">
-      <ul *ngSwitchCase="default">
+      <ul *ngSwitchCase="'default'">
         <li><a routerLink="/seller-auth">Seller</a></li>
         <li><a routerLink="">Home</a></li>
         <li><a href="#">Login</a></li>
