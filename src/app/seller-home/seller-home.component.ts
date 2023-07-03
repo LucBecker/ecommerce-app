@@ -9,7 +9,7 @@ import { ProductService } from '../services/product.service';
 })
 export class SellerHomeComponent implements OnInit {
 
-  productList:any | product[];
+  productList:undefined | product[];
 
   constructor(private product: ProductService){ }
 
