@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class HeaderComponent implements OnInit {
 
   menuType: String = 'default';
+  sellerName:string="";
 
   constructor(private route: Router) {}
 
@@ -16,12 +17,19 @@ export class HeaderComponent implements OnInit {
       this.route.events.subscribe((val: any) => {
         if(val.url) {
           if(localStorage.getItem('seller') && val.url.includes('seller')) {
-            console.warn('this is seller area');
+            let sellerStore=localStorage.getItem('seller');
+            let sellerData=sellerStore=sellerStore && JSON.parse(sellerStore)[0];
+            this.sellerName=sellerData.name;
             this.menuType = 'seller';
           } else {
             this.menuType = 'default';
           }
         }
       });
+  }
+
+  logout(){
+    localStorage.removeItem('seller');
+    this.route.navigate(['/']);
   }
 }
