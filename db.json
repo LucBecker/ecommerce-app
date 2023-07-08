@@ -165,6 +165,12 @@
       "email": "lucas@gmail.com",
       "password": "123",
       "id": 7
+    },
+    {
+      "name": "Lucas",
+      "email": "lucas@gmail.com",
+      "password": "123",
+      "id": 8
     }
   ]
 }
