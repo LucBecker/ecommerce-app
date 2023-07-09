@@ -25,8 +25,9 @@
       />
       <button class="form-button">Sign Up</button>
       <p>Already have account? <a (click)="openLogin()">Click here</a></p>
-  </form>
+    </form>
   </div>
+
   <div *ngIf="showLogin" class="login">
     <h1 class="user-auth">User Login</h1>
     <form #userLogin="ngForm" class="common-form" (ngSubmit)="login(userLogin.value)">
