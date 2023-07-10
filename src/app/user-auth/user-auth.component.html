@@ -31,6 +31,7 @@
   <div *ngIf="showLogin" class="login">
     <h1 class="user-auth">User Login</h1>
     <form #userLogin="ngForm" class="common-form" (ngSubmit)="login(userLogin.value)">
+        <p class="error-p">{{authError}}</p>
         <input
             type="text"
             class="form-input"
@@ -38,6 +39,7 @@
             name="email"
             ngModel
         />
+        <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please enter valid input</span></p>
         <input
             type="password"
             class="form-input"
@@ -45,7 +47,9 @@
             name="password"
             ngModel
         />
-        <button class="form-button">Login</button>
+        <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please enter valid input</span></p>
+
+        <button [disabled]="userLogin.invalid" class="form-button">Login</button>
         <p>Want to create a have account? <a (click)="openSignUp()">Click here</a></p>
     </form>
    </div>
