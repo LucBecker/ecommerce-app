@@ -10,7 +10,7 @@ import { ProductService } from '../services/product.service';
 })
 export class HeaderComponent implements OnInit {
 
-  menuType: String = 'default';
+  menuType:string = 'default';
   sellerName:string="";
   userName:string="";
   searchResult:product[] | undefined;
