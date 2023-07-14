@@ -7,13 +7,8 @@ import { login, signUp } from '../data-type';
   providedIn: 'root'
 })
 export class UserService {
-
-  invalidUserAuth= new EventEmitter<boolean>(false);
-
-  constructor(
-    private http: HttpClient,
-    private router:Router
-  ) { }
+  invalidUserAuth=new EventEmitter<boolean>(false);
+  constructor(private http: HttpClient, private router:Router) { }
 
   userSingUp(user:signUp){
     this.http.post('http://localhost:3000/users',user,{observe:'response'})
@@ -34,8 +29,8 @@ export class UserService {
           localStorage.setItem('user', JSON.stringify(result.body[0]));
           this.router.navigate(['/']);
           this.invalidUserAuth.emit(false)
-        } else {
-          this.invalidUserAuth.emit(true);
+        }else{
+          this.invalidUserAuth.emit(true)
         }
       })
   }

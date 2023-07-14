@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { cart, login, product, signUp } from '../data-type';
-import { UserService } from '../services/user.service';
 import { ProductService } from '../services/product.service';
+import { UserService } from '../services/user.service';
 
 @Component({
   selector: 'app-user-auth',
@@ -9,13 +9,10 @@ import { ProductService } from '../services/product.service';
   styleUrls: ['./user-auth.component.css']
 })
 export class UserAuthComponent implements OnInit {
-
   showLogin:boolean=true;
   authError:string="";
+  constructor(private user: UserService, private product:ProductService){
 
-  constructor(
-    private user: UserService,
-    private product:ProductService){
   }
 
   ngOnInit(): void {
@@ -74,4 +71,3 @@ export class UserAuthComponent implements OnInit {
   }
 
 }
-
