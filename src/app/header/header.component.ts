@@ -56,13 +56,14 @@ export class HeaderComponent implements OnInit {
   userLogout(){
     localStorage.removeItem('user');
     this.route.navigate(['/user-auth']);
+    this.product.cartData.emit([])
   }
 
   searchProduct(query:KeyboardEvent){
     if(query){
       const element = query.target as HTMLInputElement;
       console.warn(element.value)
-      this.product.searchProducts(element.value).subscribe((result) => {
+      this.product.searchProduct(element.value).subscribe((result) => {
         console.warn(result);
         if(result.length > 5){
           result.length=length;
