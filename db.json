@@ -78,7 +78,7 @@
   ],
   "products": [
     {
-      "name": "Iphone Teste New Update",
+      "name": "Iphone 1995",
       "price": "2000",
       "category": "mobile",
       "color": "pink",
@@ -121,117 +121,6 @@
       "description": "This is the description of the product",
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
       "id": 5
-    },
-    {
-      "name": "Iphone 1995",
-      "price": "2000",
-      "category": "mobile",
-      "color": "pink",
-      "description": "This is the description of the product",
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
-      "quantity": 2,
-      "productId": 1,
-      "userId": {
-        "name": "Mardoqueu",
-        "email": "mardoqueu@gmail.com",
-        "password": "123",
-        "id": 1
-      },
-      "id": 6
-    },
-    {
-      "name": "Iphone 1995",
-      "price": "2000",
-      "category": "mobile",
-      "color": "pink",
-      "description": "This is the description of the product",
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
-      "quantity": 2,
-      "productId": 1,
-      "userId": {
-        "name": "Mardoqueu",
-        "email": "mardoqueu@gmail.com",
-        "password": "123",
-        "id": 1
-      },
-      "id": 7
-    },
-    {
-      "name": "Iphone 1995",
-      "price": "2000",
-      "category": "mobile",
-      "color": "pink",
-      "description": "This is the description of the product",
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
-      "quantity": 1,
-      "productId": 1,
-      "userId": {
-        "name": "Mardoqueu",
-        "email": "mardoqueu@gmail.com",
-        "password": "123",
-        "id": 1
-      },
-      "id": 8
-    },
-    {
-      "name": "Iphone 1995",
-      "price": "2000",
-      "category": "mobile",
-      "color": "pink",
-      "description": "This is the description of the product",
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
-      "quantity": 2,
-      "productId": 1,
-      "userId": 1,
-      "id": 9
-    },
-    {
-      "name": "Iphone 1995",
-      "price": "2000",
-      "category": "mobile",
-      "color": "pink",
-      "description": "This is the description of the product",
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
-      "quantity": 2,
-      "productId": 1,
-      "userId": 1,
-      "id": 10
-    },
-    {
-      "name": "Iphone 1995",
-      "price": "2000",
-      "category": "mobile",
-      "color": "pink",
-      "description": "This is the description of the product",
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
-      "quantity": 2,
-      "productId": 1,
-      "userId": 1,
-      "id": 11
-    },
-    {
-      "name": "Iphone 1995",
-      "price": "2000",
-      "category": "mobile",
-      "color": "pink",
-      "description": "This is the description of the product",
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
-      "quantity": 2,
-      "productId": 1,
-      "userId": 1,
-      "id": 12
-    },
-    {
-      "name": "Iphone 1995",
-      "price": "2000",
-      "category": "mobile",
-      "color": "pink",
-      "description": "This is the description of the product",
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
-      "quantity": 2,
-      "productId": 1,
-      "userId": 1,
-      "id": 13
     }
   ],
   "users": [
@@ -282,6 +171,80 @@
       "email": "lucas@gmail.com",
       "password": "123",
       "id": 8
+    }
+  ],
+  "cart": [
+    {
+      "name": "Iphone 124",
+      "price": "2000",
+      "color": "pink",
+      "category": "mobile",
+      "description": "This is the description of the product",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
+      "quantity": 8,
+      "productId": 2,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "name": "Iphone 124",
+      "price": "2000",
+      "color": "pink",
+      "category": "mobile",
+      "description": "This is the description of the product",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
+      "quantity": 2,
+      "productId": 3,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "name": "Iphone 1995",
+      "price": "2000",
+      "category": "mobile",
+      "color": "pink",
+      "description": "This is the description of the product",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
+      "quantity": 4,
+      "productId": 1,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "name": "Iphone 124",
+      "price": "2000",
+      "color": "pink",
+      "category": "mobile",
+      "description": "This is the description of the product",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 8,
+      "id": 5
+    },
+    {
+      "name": "Iphone 124",
+      "price": "2000",
+      "color": "pink",
+      "category": "mobile",
+      "description": "This is the description of the product",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 8,
+      "id": 6
+    },
+    {
+      "name": "Iphone 124",
+      "price": "2000",
+      "color": "pink",
+      "category": "mobile",
+      "description": "This is the description of the product",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-1-202209_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1660830896184",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 8,
+      "id": 7
     }
   ]
 }
