@@ -19,39 +19,35 @@ export class UserAuthComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.user.userAuthReload();
+      this.user.userAuthReload();
   }
 
   signUp(data:signUp){
     this.user.userSingUp(data);
   }
-
   login(data:login){
     this.user.userLogin(data);
     this.user.invalidUserAuth.subscribe((result)=>{
       console.warn(console);
       if(result){
         this.authError="User not found";
-      } else {
+      }else{
         this.localCartToRemoteCart();
       }
-    })
+      })
   }
-
   openSignUp(){
     this.showLogin=false;
   }
-
   openLogin(){
     this.showLogin=true;
   }
-
   localCartToRemoteCart(){
     let data = localStorage.getItem('localCart');
+    let user = localStorage.getItem('user');
+    let userId = user && JSON.parse(user).id;
     if(data){
       let cartDataList:product[]= JSON.parse(data);
-      let user = localStorage.getItem('user');
-      let userId = user && JSON.parse(user).id;
       cartDataList.forEach((product:product, index)=>{
         let cartData:cart={
           ...product,
@@ -71,5 +67,11 @@ export class UserAuthComponent implements OnInit {
           }
       })
     }
+
+    setTimeout(() => {
+      this.product.getCartList(userId)
+    }, 2000);
   }
+
 }
+
