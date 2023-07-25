@@ -17,7 +17,7 @@ export class SellerService {
     private router:Router) { }
 
   userSignUp(data:signUp){
-    return this.http.post("http://localhost:3000/seller",
+    this.http.post("https://fake-product-api-mdq.herokuapp.com/seller",
     data,
     {observe:'response'}).subscribe((result) => {
       console.warn()
@@ -37,7 +37,7 @@ export class SellerService {
   }
 
   userLogin(data:login){
-    this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`,
+    this.http.get(`https://fake-product-api-mdq.herokuapp.com/seller?email=${data.email}&password=${data.password}`,
     {observe: 'response'}).subscribe((result: any) => {
       if(result && result.body && result.body.length===1){
         this.isLoginError.emit(false);
